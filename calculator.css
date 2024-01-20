@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#191825, #443C68);
+}
+#header{
+    background-size: 50%;
+}
+.container{
+    color: rgb(176, 124, 124);
+    text-shadow: 2px 2px #c22285;
+    text-align: center;
+    text-decoration:wavy;
+    font-size: 50px;
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+#calculator{
+     width: 100%;
+     height: 80vh;
+     box-sizing: border-box;
+}
+.container2{
+    background:  #291f565a;
+    padding: 20px 20px;
+    margin-left: 260px;
+    margin-right: 260px;
+    font-size: 50px;
+    border-radius: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    box-shadow: rgba(247, 178, 242, 0.19) 0px 10px 20px, rgba(241, 174, 241, 0.23) 0px 6px 6px;
+}
+.container2 form input{
+    text-align: center;
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: rgba(247, 178, 242, 0.19) 0px 10px 20px, rgba(241, 174, 241, 0.23) 0px 6px 6px;
+    background:transparent;
+    font-size: 20px;
+    color: rgb(249, 169, 222);
+    cursor: pointer;
+    margin: 5px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin:15px 0;
+    height: 30px;
+    margin-bottom: 40px;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow:none;
+    border: solid #615861;
+    border-radius: 0;
+    padding-right: 5px;
+}
+form input .equal{
+    background-color: #c22285;
+    color: #000;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background: linear-gradient(45deg,#191825, #443C68);
+    }
+}
